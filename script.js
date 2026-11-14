@@ -6,7 +6,7 @@ const curriculum = {
         name: "1 වාරය: ජීවන දැක්ම",
         activities: [
             {
-                id: "t1_a1", name: "ක්‍රියාකාරකම 01: ස්වයං කුසලතා හා දුර්වලතා",
+                id: "t1_a1", name: "ක්‍රියාකාරකම 01: ස්වයං කුසලතා හා දුර්වලතා අනාවරණය",
                 instructions: "පියවර 1.1: සිසුන් තම ස්වකීය කුසලතා හා දුර්වලතා 10ක් හඳුනාගෙන වගුවක් හෝ ලැයිස්තුවක් ලෙස ඉදිරිපත් කළ යුතුය. ඉන්පසු ඔවුන් කිරීමට කැමති හා අකැමති දෑ 3 බැගින් සටහන් කළ යුතුය.",
                 criteria: [
                     { id: "t1_a1_c1", text: "අනාවරණය කර ගත් ස්වකීය කුසලතා හා දුර්වලතා ඉදිරිපත් කරයි.", max: 10, guide: "8-10: නිර්මාණාත්මක අයුරින් ඉදිරිපත් කිරීම (කුසලතා හා දුර්වලතා 8ක් වත් ඇතුළත් වීම අවශ්‍යයි).<br>4-7: වගුවක් ඇසුරින් හෝ ලැයිස්තුවක් ඇසුරින් ඉදිරිපත් කිරීම (කුසලතා හා දුර්වලතා 8ක් වත් ඇතුළත් වීම).<br>1-3: කුසලතා හා දුර්වලතා දක්වා ඇතත් අසම්පූර්ණ වීම හා දුර්වල තත්ත්වයක පැවතීම." },
@@ -46,7 +46,7 @@ const curriculum = {
                 instructions: "පියවර 1.2: කණ්ඩායම් ක්‍රීඩාවේ නිරත වෙමින් අවදානම් භාර ගැනීම සහ කණ්ඩායම් තුළ සහයෝගයෙන් කටයුතු කිරීම ඇගයීමට ලක් කෙරේ.",
                 criteria: [
                     { id: "t2_a1_c1", text: "අවදානම් භාර ගැනීම", max: 10, guide: "8-10: අවදානම් නිවැරදි ව තක්සේරු කර භාර ගැනීම පිළිබඳ ව දැඩි අවධානයෙන් යුතුව ක්‍රීඩා කිරීම.<br>4-7: අවදානම් තක්සේරු කර භාර ගැනීම යහපත් මට්ටමක තිබීම.<br>1-3: අවදානම් තක්සේරු කර භාර ගැනීම යහපත් මට්ටමක නොතිබීම." },
-                    { id: "t2_a1_c2", text: "කණ්ඩායම් තුළ සහ අතර දැක ගත හැකි විශේෂ ලක්ෂණ", max: 10, guide: "8-10: තම කණ්ඩායම් තුළ මෙන් ම සෙසු කණ්ඩායම් අතර මනා මිත්‍රශීලී සේවයක් පවත්වා ගැනීම සහ සාමූහික ව ජය පරාජය භුක්ති විඳීම ඉතා සතුටුදායක තත්ත්වයක පැවතීම.<br>4-7: තම කණ්ඩායම තුළ සහ සෙසු කණ්ඩායම් අතර මිත්‍රශීලීත්වයක් පවත්වා ගැනීම සහ ජය පරාජය සාමූහික ව භුක්ති විඳීම සතුටුදායක මට්ටමක පැවතීම.<br>1-3: තම කණ්ඩායම් තුළ පමණක් මිත්‍රශීලීත්වයක් පවත්වා ගැනීම සහ කණ්ඩායම් අතර එය යහපත් මට්ටමක නොතිබීම." }
+                    { id: "t2_a1_c2", text: "කණ්ඩායම් තුළ සහ කණ්ඩායම් අතර දැක ගත හැකි විශේෂ ලක්ෂණ ප්‍රදර්ශනය කරයි.", max: 10, guide: "8-10: තම කණ්ඩායම් තුළ මෙන් ම සෙසු කණ්ඩායම් අතර මනා මිත්‍රශීලී සේවයක් පවත්වා ගැනීම සහ සාමූහික ව ජය පරාජය භුක්ති විඳීම ඉතා සතුටුදායක තත්ත්වයක පැවතීම.<br>4-7: තම කණ්ඩායම තුළ සහ සෙසු කණ්ඩායම් අතර මිත්‍රශීලීත්වයක් පවත්වා ගැනීම සහ ජය පරාජය සාමූහික ව භුක්ති විඳීම සතුටුදායක මට්ටමක පැවතීම.<br>1-3: තම කණ්ඩායම් තුළ පමණක් මිත්‍රශීලීත්වයක් පවත්වා ගැනීම සහ කණ්ඩායම් අතර එය යහපත් මට්ටමක නොතිබීම." }
                 ]
             },
             {
@@ -54,7 +54,7 @@ const curriculum = {
                 instructions: "පියවර 2.5: කණ්ඩායම් වශයෙන් නව නිර්මාණයක් සකස් කිරීම. අලුත් අදහස් ඉදිරිපත් කිරීම සහ සම්පත් නිර්මාණශීලීව භාවිත කිරීම ඇගයේ.",
                 criteria: [
                     { id: "t2_a2_c1", text: "නව අදහස් ඉදිරිපත් කිරීම", max: 10, guide: "8-10: අතිශය අලුත් සහ ප්‍රායෝගික අදහස් යොදා ගනිමින් නව නිර්මාණයක් ඉදිරිපත් කරයි.<br>4-7: පවතින සාමාන්‍ය තත්ත්වයට යම් වෙනස්කම් සහිත ව නිර්මාණයක් ඉදිරිපත් කරයි.<br>1-3: පවතින සාමාන්‍ය අදහසක් ම යොදා ගනිමින් නිර්මාණයක් ඉදිරිපත් කරයි." },
-                    { id: "t2_a2_c2", text: "සම්පත් භාවිතය සහ නිර්මාණය", max: 10, guide: "8-10: පවතින සම්පත් උපරිම ලෙසත් නිර්මාණශීලී ලෙසත් භාවිත කරමින් ආකර්ෂණීය නිර්මාණයක් ඉදිරිපත් කරයි.<br>4-7: පවතින සීමිත සම්පත් ප්‍රමාණවත් ලෙස භාවිත කරමින් නිර්මාණයක් සකසයි.<br>1-3: උපදෙස් මත පමණක් නිර්මාණයක් කරයි. සම්පත් අපතේ ගොස් ඇති බව නිරීක්ෂණය කරයි." }
+                    { id: "t2_a2_c2", text: "සම්පත් භාවිතය සහ නිර්මාණයක් ඉදිරිපත් කිරීම.", max: 10, guide: "8-10: පවතින සම්පත් උපරිම ලෙසත් නිර්මාණශීලී ලෙසත් භාවිත කරමින් ආකර්ෂණීය නිර්මාණයක් ඉදිරිපත් කරයි.<br>4-7: පවතින සීමිත සම්පත් ප්‍රමාණවත් ලෙස භාවිත කරමින් නිර්මාණයක් සකසයි.<br>1-3: උපදෙස් මත පමණක් නිර්මාණයක් කරයි. සම්පත් අපතේ ගොස් ඇති බව නිරීක්ෂණය කරයි." }
                 ]
             },
             {
@@ -81,15 +81,23 @@ const curriculum = {
                 id: "t3_a1", name: "ක්‍රියාකාරකම 01: මුදලේ වතගොත",
                 instructions: "පියවර 1.3: මුදලේ අතීත විකාශනය සහ අනාගතයේ මුදල් කෙබඳු විය යුතුද යන්න දැක්වෙන ආකර්ෂණීය නිර්මාණයක් ඉදිරිපත් කළ යුතුය.",
                 criteria: [
-                    { id: "t3_a1_c1", text: "මුදලේ අතීත විකාශනය හා අනාගතයේ මුදල් කෙබඳු ආකාරයට නිර්මාණය විය යුතු දැයි දැක්වීමට ආකර්ෂණීය නිර්මාණයක් ඉදිරිපත් කරයි.", max: 20, guide: "15-20: මුදලේ විකාශනය පිළිබඳ හා අනාගතයේ මුදල් කෙබඳු ආකාරයට නිර්මාණය විය යුතු දැයි දක්වීමට ආකර්ෂණීය නිර්මාණයක් ඉදිරිපත් කරයි.<br>7-14: අනාගතයේ මුදල් කෙබඳු ආකාරයට නිර්මාණය විය යුතු දැයි දක්වීමට නිර්මාණයක් ඉදිරිපත් කරයි.<br>1-6: මුදලේ විකාශනය පිළිබඳ සාමාන්‍ය අදහස් දැක්වෙන පරිදි නිර්මාණයක් ඉදිරිපත් කරයි." }
+                    { id: "t3_a1_c1", text: "මුදලේ අතීත විකාශනය හා අනාගතයේ මුදල් කෙබඳු ආකාරයට නිර්මාණය විය යුතු දැයි දැක්වීම.", max: 20, guide: "15-20: මුදලේ විකාශනය පිළිබඳ හා අනාගතයේ මුදල් කෙබඳු ආකාරයට නිර්මාණය විය යුතු දැයි දක්වීමට ආකර්ෂණීය නිර්මාණයක් ඉදිරිපත් කරයි.<br>7-14: අනාගතයේ මුදල් කෙබඳු ආකාරයට නිර්මාණය විය යුතු දැයි දක්වීමට නිර්මාණයක් ඉදිරිපත් කරයි.<br>1-6: මුදලේ විකාශනය පිළිබඳ සාමාන්‍ය අදහස් දැක්වෙන පරිදි නිර්මාණයක් ඉදිරිපත් කරයි." }
                 ]
             },
             {
-                id: "t3_a2", name: "ක්‍රියාකාරකම 02: කාසි හා නෝට්ටු පිරිසිදුව භාවිත කරමු",
-                instructions: "පියවර 2.4 A හා B: කාසි හා නෝට්ටු පසුම්බියක බහා තබා ගැනීමේ වාසි සහ එසේ නොකරන පුද්ගලයෙකුට ඇති වන ගැටලු හඳුනා ගැනීම.",
+                id: "t3_a2", name: "ක්‍රියාකාරකම 2A: කාසි හා නෝට්ටු පිරිසිදුව හා පිළිවෙළට  භාවිත කරමු",
+                instructions: "පියවර 2.4 A: කාසි හා නෝට්ටු පසුම්බියක බහා තබා ගැනීමේ වාසි හඳුනා ගැනීම.",
                 criteria: [
-                    { id: "t3_a2_c1", text: "කාසි හා නෝට්ටු පසුම්බියක බහා තබා ගැනීමෙන් සිදුවන වාසි දැක්වීම (A කාර්යය)", max: 10, guide: "8-10: අදාළ පුද්ගලයාට සිදු වන වාසි 3ක් සහ අන් අයට සිදු වන වාසිය 2ක් ඉතා පැහැදිලි ව දක්වයි.<br>4-7: අදාළ පුද්ගලයාට සිදු වන වාසි 2ක් සහ අන් අයට සිදු වන වාසිය 2ක් ඉතා පැහැදිලි ව දක්වයි.<br>1-3: අදාළ පුද්ගලයාට සිදු වන වාසියක් හෝ අන් අයට සිදු වන වාසියක් පමණක් පැහැදිලි ව දක්වයි." },
-                    { id: "t3_a2_c2", text: "යහපත් ආකල්ප ඇති කිරීමට අපේක්ෂා කරන ආකාරය දැක්වීම (B කාර්යය)", max: 10, guide: "8-10: පසුම්බියක් හෝ බෑගයක් භාවිත කිරීමේ යහපත් පුරුද්ද ජීවිත පුරුද්දක් බවට පත් කිරීම සඳහා එහි වාසි 4ක් පෙන්වා දෙමින් තාර්කික ව හා පැහැදිලි ව පෙන්වා දීම.<br>4-7: අදාළ පුද්ගලයා මුහුණ දෙන ගැටලු 2ක් සහ අන් අය මුහුණ දෙන ගැටලුවක් පැහැදිලි ව දැක්වීම.<br>1-3: අදාළ පුද්ගලයා මුහුණ දෙන ගැටලුවක් හෝ අන් අය මුහුණ දෙන ගැටලුවක් පමණක් දැක්වීම." }
+                    { id: "t3_a2a_c1", text: "ඔබ හඳුනා ගත් පුද්ගලයා කාසි හෝ නෝට්ටු ලොග තබා ගන්නා ආකාරය සහ රැගෙන යන ආකාරය නිසා සිදු වන වාසි දැක්වීම.", max: 10, guide: "ඉතා හොඳයි (ලකුණු 10-08): අදාළ පුද්ගලයාට සිදු වන වාසි 3ක් සහ අන් අයට සිදු වන වාසිය 2ක් ඉතා පැහැදිලි ව දෙපෙන්වා දෙයි.<br>හොඳයි (ලකුණු 07-04): අදාළ පුද්ගලයාට සිදු වන වාසි 2ක් සහ අන් අයට සිදු වන වාසියක් පැහැදිලි ව දක්වයි.<br>සංවර්ධනය විය යුතුයි (ලකුණු 03-01): අදාළ පුද්ගලයාට සිදු වන වාසියක් හෝ අන් අයට සිදු වන වාසියක් පමණක් පැහැදිලි ව දක්වයි." },
+                    { id: "t3_a2a_c2", text: "කාසි හා නෝට්ටු ලොග තබා ගන්නා ආකාරය සහ රැගෙන යන ආකාරය පිළිබඳ ව යහපත් ආකල්ප තවත් පුද්ගලයෙකු තුළ ඇති කිරීමට අපේක්ෂා කරන ආකාරය දැක්වීම.", max: 10, guide: "ඉතා හොඳයි (ලකුණු 10-08): කාසි හා නෝට්ටු ලොග තබා ගන්නා ආකාරය සහ රැගෙන යන ආකාරය පිළිබඳ ව යහපත් ආකල්ප ඇති කිරීමට අපේක්ෂා කරන ආකාරය පැහැදිලි කරුණු 3කින් වත් දක්වයි.<br>හොඳයි (ලකුණු 07-04): කාසි හා නෝට්ටු ලොග තබා ගන්නා ආකාරය සහ රැගෙන යන ආකාරය පිළිබඳ ව යහපත් ආකල්ප ඇති කිරීමට අපේක්ෂා කරන ආකාරය පැහැදිලි කරුණු 2කින් වත් දක්වයි.<br>සංවර්ධනය විය යුතුයි (ලකුණු 03-01): කාසි හා නෝට්ටු ලොග තබා ගන්නා ආකාරය සහ රැගෙන යන ආකාරය පිළිබඳ ව යහපත් ආකල්ප ඇති කිරීමට අපේක්ෂා කරන ආකාරය පැහැදිලි කරුණු 1කින් පමණක් දක්වයි." }
+                ]
+            },
+            {
+                id: "t3_a2b", name: "ක්‍රියාකාරකම 2B: කාසි හා නෝට්ටු පිරිසිදුව හා පිළිවෙළට භාවිත කරමු",
+                instructions: "පියවර 2.4 B: කාසි හා නෝට්ටු ලොග තබා නොගැනීම නිසා මුහුණ දෙන ගැටලු හඳුනා ගැනීම.",
+                criteria: [
+                    { id: "t3_a2b_c1", text: "ඔබ තෝරා ගත් පුද්ගලයා කාසි හා නෝට්ටු නාවිත කිරීමේ දී දැනට පසුම්බියක් හෝ බෑගයක් නාවිත නොකිරීම නිසා මුහුණ දෙන ගැටලු පෙන්වා දීම.", max: 10, guide: "ඉතා හොඳයි (ලකුණු 10-08): අදාළ පුද්ගලයා මුහුණ දෙන ගැටලු 3ක් සහ අන් අය මුහුණ දෙන ගැටලුවක් ඉතා පැහැදිලි ව පෙන්වා දීම.<br>හොඳයි (ලකුණු 07-04): අදාළ පුද්ගලයා මුහුණ දෙන ගැටලු 2ක් සහ අන් අය මුහුණ දෙන ගැටලුවක් පැහැදිලි ව දැක්වීම.<br>සංවර්ධනය විය යුතුයි (ලකුණු 03-01): අදාළ පුද්ගලයා මුහුණ දෙන ගැටලුවක් හෝ අන් අය මුහුණ දෙන ගැටලුවක් පමණක් පැහැදිලි ව දැක්වීම." },
+                    { id: "t3_a2b_c2", text: "කාසි හා නෝට්ටු නාවිත කිරීමේ දී පසුම්බියක් හෝ බෑගයක් භාවිත කිරීමේ යහපත් පුරුද්ද ජීවිත පුරුද්දක් බවට පත්කිරීම සඳහා එහි වාසි පෙන්වා දීම.", max: 10, guide: "ඉතා හොඳයි (ලකුණු 10-08): අදාළ පුද්ගලයාට සහ අන් අයට සිදු වන වාසි 4ක් පෙන්වා දෙමින් කාසි හා නෝට්ටු පරිහරණය කිරීමේ දී පසුම්බියක් හෝ බෑගයක් භාවිත කිරීම ජීවන පුරුද්දක් බවට පත් කළ හැකි ආකාරය නාර්ථික ව හා පැහැදිලි ව පෙන්වා දීම.<br>හොඳයි (ලකුණු 07-04): අදාළ පුද්ගලයාට සහ අන් අයට සිදු වන වාසි 3ක් පෙන්වා දෙමින් කාසි හා නෝට්ටු පරිහරණය කිරීමේ දී පසුම්බියක් හෝ බෑගයක් භාවිත කිරීම ජීවන පුරුද්දක් බවට පත් කළ හැකි ආකාරය පැහැදිලි ව පෙන්වා දීම.<br>සංවර්ධනය විය යුතුයි (ලකුණු 03-01): අදාළ පුද්ගලයාට හෝ අන් අයට සිදු වන වාසියක් පෙන්වා දෙමින් කාසි හා නෝට්ටු පරිහරණය කිරීමේ දී පසුම්බියක් හෝ බෑගයක් භාවිත කිරීම ජීවන පුරුද්දක් බවට පත් කළ හැකි ආකාරය පෙන්වා දීමට උත්සාහ කිරීම." }
                 ]
             },
             {
@@ -416,31 +424,124 @@ function renderActChips() {
     box.scrollLeft = x;
 }
 
+let allDropdownOptions = [];
+
 function updateStudentDropdowns() {
     const sel = $('mark-student');
-    if (!sel) return;
+    const input = $('student-search-input');
+    if (!sel || !input) return;
+    
     const prev = sel.value;
     const c = $('mark-class').value;
     const gs = appData.groups.filter(g => g.class === c);
     const l = appData.students.filter(s => s.class === c);
-    sel.innerHTML = '<option value="">සිසුවෙකු තෝරන්න...</option>' +
-        (l.length ? '<optgroup label="සිසුන්">' + l.map(s => `<option value="${s.id}">${esc(s.name)}</option>`).join('') + '</optgroup>' : '') +
-        (gs.length ? '<optgroup label="කණ්ඩායම්">' + gs.map(g => `<option value="g:${g.id}">${esc(g.name)} (${g.members.length})</option>`).join('') + '</optgroup>' : '');
-    if ([...sel.options].some(o => o.value === prev)) sel.value = prev;
+    
+    // Build array of all options
+    allDropdownOptions = [];
+    l.forEach(s => allDropdownOptions.push({ value: s.id, text: s.name, type: 'student' }));
+    gs.forEach(g => allDropdownOptions.push({ value: 'g:' + g.id, text: g.name + ' (' + g.members.length + ')', type: 'group' }));
+
+    // Reset search input
+    input.value = '';
+    
+    // Set previous value if exists
+    if (allDropdownOptions.some(o => o.value === prev)) {
+        sel.value = prev;
+        const prevOpt = allDropdownOptions.find(o => o.value === prev);
+        input.value = prevOpt.text;
+    } else {
+        sel.value = '';
+    }
+    
+    filterStudentDropdown();
     loadMarkingUI();
 }
 
+function toggleDropdown(show) {
+    const drop = $('student-dropdown');
+    if (!drop) return;
+    if (show) {
+        drop.classList.add('show');
+        filterStudentDropdown();
+    } else {
+        drop.classList.remove('show');
+    }
+}
+
+function filterStudentDropdown() {
+    const input = $('student-search-input');
+    const drop = $('student-dropdown');
+    if (!input || !drop) return;
+    
+    const query = input.value.toLowerCase().trim();
+    let filtered = allDropdownOptions;
+
+    if (query) {
+        // Filter by text
+        filtered = allDropdownOptions.filter(o => o.text.toLowerCase().includes(query));
+    }
+
+    if (!filtered.length) {
+        drop.innerHTML = '<div class="search-dropdown-item" style="cursor:default;color:#999;">කිසිවක් හමු නොවීය</div>';
+        return;
+    }
+
+    let html = '';
+    const students = filtered.filter(o => o.type === 'student');
+    const groups = filtered.filter(o => o.type === 'group');
+
+    if (students.length) {
+        html += `<div class="search-dropdown-group">සිසුන්</div>`;
+        html += students.map(o => `<div class="search-dropdown-item" onclick="selectDropdownItem('${o.value}', '${esc(o.text)}')">${esc(o.text)}</div>`).join('');
+    }
+    if (groups.length) {
+        html += `<div class="search-dropdown-group">කණ්ඩායම්</div>`;
+        html += groups.map(o => `<div class="search-dropdown-item" onclick="selectDropdownItem('${o.value}', '${esc(o.text)}')">${esc(o.text)}</div>`).join('');
+    }
+    
+    drop.innerHTML = html;
+}
+
+function selectDropdownItem(value, text) {
+    const sel = $('mark-student');
+    const input = $('student-search-input');
+    
+    sel.value = value;
+    input.value = text;
+    toggleDropdown(false);
+    loadMarkingUI(); // UI එක සෘජුවම යාවත්කාලීන කිරීම
+}
+
+// Hide dropdown when clicking outside
+document.addEventListener('click', function(e) {
+    const container = document.querySelector('.search-select-container');
+    if (container && !container.contains(e.target)) {
+        toggleDropdown(false);
+    }
+});
+
 function stepStudent(d) {
     const sel = $('mark-student');
-    if (!sel.options.length) return;
-    const i = sel.selectedIndex + d;
-    if (i >= 0 && i < sel.options.length) {
-        sel.selectedIndex = i;
+    const input = $('student-search-input');
+    if (!allDropdownOptions.length) return;
+    
+    let currentIndex = allDropdownOptions.findIndex(o => o.value === sel.value);
+    
+    // සිසුවෙකු තෝරා නොමැති නම් පළමු අයගෙන් පටන් ගන්න
+    if (currentIndex === -1) {
+        currentIndex = d > 0 ? -1 : allDropdownOptions.length;
+    }
+    
+    let nextIndex = currentIndex + d;
+    
+    if (nextIndex >= 0 && nextIndex < allDropdownOptions.length) {
+        const nextOpt = allDropdownOptions[nextIndex];
+        sel.value = nextOpt.value;
+        input.value = nextOpt.text;
         loadMarkingUI();
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 }
-
 function loadMarkingUI() {
     renderTerms();
     const { v, g, ids } = curSel();
@@ -454,8 +555,8 @@ function loadMarkingUI() {
     }
     renderActChips();
     let h = g
-        ? `<div class="card total-bar"><h3>${ic('users')} ${esc(g.name)}</h3><div class="mem">${g.members.map(m => esc(nameOf(m))).join(' · ') || 'සාමාජිකයන් නැත'}</div><div class="hint">මෙහි දෙන ලකුණු සියලු සාමාජිකයන්ට යෙදේ.</div></div>`
-        : `<div class="card total-bar"><h3>${esc(nameOf(v))}</h3><div class="hint">${curriculum[currentTerm].name}</div><div id="live-total"></div></div>`;
+        ? `<div class="card total-bar"><div class="tb-info"><h3>${ic('users')} ${esc(g.name)}</h3><div class="mem">${g.members.map(m => esc(nameOf(m))).join(' · ') || 'සාමාජිකයන් නැත'}</div><div class="hint">මෙහි දෙන ලකුණු සියලු සාමාජිකයන්ට යෙදේ.</div></div></div>`
+        : `<div class="card total-bar"><div class="tb-info"><h3>${esc(nameOf(v))}</h3><div class="hint">${curriculum[currentTerm].name}</div><div id="live-level"></div></div><div class="score" id="live-total" style="--p:0"><b>0</b></div></div>`;
     if (!ids.length) {
         box.innerHTML = h;
         return;
@@ -466,7 +567,7 @@ function loadMarkingUI() {
         h += `<div class="criteria-item"><div class="criteria-text">${c.text}</div>
         <details class="guide-d"><summary>ලකුණු මාර්ගෝපදේශය</summary><div class="criteria-guide">${c.guide}</div></details>
         <div class="ctrl"><button class="step" onclick="bump('${c.id}',-1)" aria-label="අඩු කරන්න">−</button>
-        <input id="r_${c.id}" type="range" min="0" max="${c.max}" value="${m}" oninput="setMark('${c.id}', this.value)">
+                <input id="r_${c.id}" type="range" min="0" max="${c.max}" value="${m}" style="--p:${m / c.max * 100}%" oninput="setMark('${c.id}', this.value)">
         <button class="step" onclick="bump('${c.id}',1)" aria-label="වැඩි කරන්න">+</button>
         <span class="mark-value" id="v_${c.id}">${m}/${c.max}</span></div></div>`;
     });
@@ -489,6 +590,7 @@ function setMark(cid, val) {
     const max = +el.max;
     val = Math.max(0, Math.min(max, val));
     $('v_' + cid).textContent = val + '/' + max;
+    el.style.setProperty('--p', (val / max * 100) + '%');
     curSel().ids.forEach(id => (appData.marks[id] ||= {})[cid] = val);
     saveData(true);
     renderActChips();
@@ -501,7 +603,8 @@ function updateLive() {
     if (!el || g) return;
     const t = termTotal(v, currentTerm);
     const lv = getLevel(t);
-    el.innerHTML = `මුළු ලකුණු: <b>${t}/100</b> <span class="lv">${lv[1]}</span>`;
+    el.style.setProperty('--p', t); el.innerHTML = `<b>${t}</b>`;
+    $('live-level').innerHTML = `<span class="lv">${lv[1]}</span>`;
 }
 
 // ==========================================
