@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#0b2f2c">
+    <title>ව්‍යවසායකත්වය හා මූල්‍ය සාක්ෂරතාව - 6 ශ්‍රේණිය</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='14' fill='%23f59e0b'/%3E%3Ccircle cx='24' cy='22' r='10' fill='white'/%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- SVG ICON SPRITE -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></symbol>
+<symbol id="i-edit" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></symbol>
+<symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+<symbol id="i-down" viewBox="0 0 24 24"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/></symbol>
+<symbol id="i-up" viewBox="0 0 24 24"><path d="M12 16V4m0 0L8 8m4-4l4 4M4 21h16"/></symbol>
+<symbol id="i-print" viewBox="0 0 24 24"><path d="M6 9V3h12v6"/><path d="M6 18H4v-7h16v7h-2"/><rect x="6" y="14" width="12" height="7"/></symbol>
+<symbol id="i-trash" viewBox="0 0 24 24"><path d="M3 6h18M8 6V4h8v2M6 6l1 14h10l1-14"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+<symbol id="i-prev" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></symbol>
+<symbol id="i-next" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+<symbol id="i-save" viewBox="0 0 24 24"><path d="M5 4h11l3 3v13H5z"/><path d="M8 4v5h7V4M8 20v-6h8v6"/></symbol>
+<symbol id="i-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></symbol>
+</defs></svg>
+
+<!-- APP HEADER -->
+<header>
+    <div class="brand">
+        <svg class="logo" viewBox="0 0 48 48" role="img" aria-label="ව්‍යවසායකත්ව ලාංඡනය">
+            <defs>
+                <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#fcd34d"/>
+                    <stop offset="1" stop-color="#f59e0b"/>
+                </linearGradient>
+            </defs>
+            <rect width="48" height="48" rx="14" fill="url(#lg)"/>
+            <path d="M24 8a10 10 0 0 0-5.5 18.3V31h11v-4.7A10 10 0 0 0 24 8z" fill="#fff"/>
+            <circle cx="24" cy="19" r="5" fill="#f59e0b"/>
+            <path d="M24 16.2v5.6M21.8 18h4.4" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+            <rect x="19.5" y="33" width="9" height="3" rx="1.5" fill="#12403c"/>
+            <rect x="21.5" y="37.5" width="5" height="2.5" rx="1.2" fill="#12403c"/>
+        </svg>
+        <div class="header-titles">
+            <h1>ව්‍යවසායකත්වය හා මූල්‍ය සාක්ෂරතාව</h1>
+            <p>ඇගයීම් කළමනාකරණය</p>
+        </div>
+    </div>
+</header>
+
+<!-- MAIN CONTENT -->
+<main>
+    <!-- TAB: SETTINGS -->
+    <section id="tab-classes" class="app-section">
+        <div class="card">
+            <h2><svg class="ic" aria-hidden="true"><use href="#i-users"/></svg>පන්ති කළමනාකරණය</h2>
+            <div class="input-row">
+                <input type="text" id="new-class-name" placeholder="නව පන්තියේ නම (උදා: 6E)" autocomplete="off">
+                <button onclick="addNewClass()" class="btn-primary"><svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg>එක් කරන්න</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><svg class="ic" aria-hidden="true"><use href="#i-next"/></svg>සිසුන් මාරු කිරීම</h2>
+            <div class="promo-row">
+                <select id="promo-from-class" aria-label="මාරු කරන පන්තිය"></select>
+                <svg class="ic promo-arrow" aria-hidden="true"><use href="#i-next"/></svg>
+                <select id="promo-to-class" aria-label="ලබා ගන්නා පන්තිය"></select>
+            </div>
+            <div class="input-row tools">
+                <button onclick="promoteClass()" class="btn-secondary">සියලු සිසුන් මාරු කරන්න</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><svg class="ic" aria-hidden="true"><use href="#i-save"/></svg>දත්ත සුරැකීම හා මුද්‍රණය</h2>
+            <div class="input-row tools">
+                <button onclick="exportToCSV()" class="btn-success"><svg class="ic" aria-hidden="true"><use href="#i-down"/></svg>CSV බාගන්න</button>
+                <button onclick="window.print()" class="btn-primary"><svg class="ic" aria-hidden="true"><use href="#i-print"/></svg>මුද්‍රණය</button>
+            </div>
+            <div class="input-row tools">
+                <button onclick="exportBackup()" class="btn-secondary"><svg class="ic" aria-hidden="true"><use href="#i-save"/></svg>උපස්ථය</button>
+                <button onclick="$('restore-file').click()" class="btn-secondary"><svg class="ic" aria-hidden="true"><use href="#i-up"/></svg>ප්‍රතිස්ථාපනය</button>
+            </div>
+        </div>
+
+        <div class="card danger-zone">
+            <h2><svg class="ic" aria-hidden="true"><use href="#i-trash"/></svg>අනතුරුදායක කලාපය</h2>
+            <div class="input-row tools">
+                <button onclick="resetAll()" class="btn-danger" style="width:100%">සියලු දත්ත මකන්න</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- TAB: STUDENTS -->
+    <section id="tab-students" class="app-section active">
+        <div class="card">
+            <h2><svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg>සිසුන් ඇතුළත් කිරීම</h2>
+            <div class="input-row">
+                <select id="add-class" aria-label="පන්තිය"></select>
+                <input type="text" id="add-name" placeholder="සිසුවාගේ නම" autocomplete="off">
+                <button onclick="addStudent()" class="btn-primary" aria-label="සිසුවා එක් කරන්න"><svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg>එක් කරන්න</button>
+            </div>
+            <div class="input-row" style="margin-top:8px">
+                <input type="text" id="bulk-names" placeholder="එකවර සිසුන් කිහිප දෙනෙකු (කොමාවෙන් වෙන් කරන්න)" autocomplete="off">
+                <button onclick="addBulkStudents()" class="btn-secondary"><svg class="ic" aria-hidden="true"><use href="#i-users"/></svg>එකතු කරන්න</button>
+            </div>
+        </div>
+        <div class="card" id="student-list-card">
+            <h2><svg class="ic" aria-hidden="true"><use href="#i-users"/></svg>සිසුන් ලැයිස්තුව</h2>
+            <div id="student-list"></div>
+        </div>
+        <div class="card" id="group-card">
+            <h2><svg class="ic" aria-hidden="true"><use href="#i-users"/></svg>කණ්ඩායම් සෑදීම</h2>
+            <div class="input-row"><select id="grp-class" onchange="renderGroups()" aria-label="පන්තිය"></select></div>
+            <div class="input-row tools">
+                <button class="btn-primary" onclick="addGroup()"><svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg>කණ්ඩායමක්</button>
+                <button class="btn-secondary" onclick="autoGroups()">ස්වයංක්‍රීයව බෙදන්න</button>
+            </div>
+            <div id="group-list"></div>
+        </div>
+    </section>
+
+    <!-- TAB: MARKS -->
+    <section id="tab-marks" class="app-section">
+        <div class="card sticky-header">
+            <div class="term-chips" id="term-chips"></div>
+            <div class="filter-row">
+                <select id="mark-class" onchange="updateStudentDropdowns()" aria-label="පන්තිය"></select>
+                <select id="mark-student" onchange="loadMarkingUI()" aria-label="සිසුවා හෝ කණ්ඩායම">
+                    <option value="">සිසුවෙකු තෝරන්න...</option>
+                </select>
+                <button class="btn-primary nav-btn" onclick="stepStudent(-1)" aria-label="කලින්"><svg class="ic" aria-hidden="true"><use href="#i-prev"/></svg></button>
+                <button class="btn-primary nav-btn" onclick="stepStudent(1)" aria-label="ඊළඟ"><svg class="ic" aria-hidden="true"><use href="#i-next"/></svg></button>
+            </div>
+            <div class="chips" id="act-chips"></div>
+        </div>
+        <div id="marking-area"></div>
+    </section>
+
+    <!-- TAB: DASHBOARD -->
+    <section id="tab-dashboard" class="app-section">
+        <div class="card">
+            <h2><svg class="ic" aria-hidden="true"><use href="#i-chart"/></svg>ප්‍රගති වාර්තාව</h2>
+            <div class="input-row">
+                <select id="dash-class" onchange="renderDashboard()" aria-label="පන්තිය"></select>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-head-row">
+                <h3>විස්තරාත්මක ලකුණු පුවරුව</h3>
+                <button onclick="toggleDashEdit()" id="dash-edit-btn" class="btn-mini">සංශෝධනය</button>
+            </div>
+            <div class="term-chips" id="dash-term-chips" style="margin-bottom:10px"></div>
+            <div class="table-responsive">
+                <table id="dashboard-table">
+                    <thead id="dash-thead"></thead>
+                    <tbody id="dash-tbody"></tbody>
+                </table>
+            </div>
+            <div class="table-hint" id="table-hint">← සම්පූර්ණ වගුව බැලීමට පැත්තට ස්ක්‍රෝල් කරන්න →</div>
+        </div>
+
+        <div class="card">
+            <h3>වාර්ෂික ලකුණු හා අවසාන මට්ටම</h3>
+            <div class="table-responsive">
+                <table id="annual-table">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left">සිසුවාගේ නම</th>
+                            <th>1 වාරය</th>
+                            <th>2 වාරය</th>
+                            <th>3 වාරය</th>
+                            <th class="annual-final">වාර්ෂික / මට්ටම</th>
+                        </tr>
+                    </thead>
+                    <tbody id="annual-tbody"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>පන්ති සාරාංශය</h3>
+            <div id="dash-summary" class="stat-grid"></div>
+        </div>
+    </section>
+</main>
+
+<!-- BOTTOM NAVIGATION -->
+<nav class="bottom-nav">
+    <button onclick="switchTab('students')" id="nav-students" class="active" aria-label="සිසුන්">
+        <svg class="ic" aria-hidden="true"><use href="#i-users"/></svg>
+        <span>සිසුන්</span>
+    </button>
+    <button onclick="switchTab('marks')" id="nav-marks" aria-label="ලකුණු">
+        <svg class="ic" aria-hidden="true"><use href="#i-edit"/></svg>
+        <span>ලකුණු</span>
+    </button>
+    <button onclick="switchTab('dashboard')" id="nav-dashboard" aria-label="වාර්තා">
+        <svg class="ic" aria-hidden="true"><use href="#i-chart"/></svg>
+        <span>වාර්තා</span>
+    </button>
+    <button onclick="switchTab('classes')" id="nav-classes" aria-label="සැකසුම්">
+        <svg class="ic" aria-hidden="true"><use href="#i-settings"/></svg>
+        <span>සැකසුම්</span>
+    </button>
+</nav>
+
+<input type="file" id="restore-file" accept=".json" hidden onchange="importBackup(this)">
+<div id="toast" class="toast">සුරකින ලදි!</div>
+
+<script src="script.js"></script>
+</body>
+</html>
