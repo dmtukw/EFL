@@ -1,6 +1,4 @@
-// ==========================================
-// 1. NIE CURRICULUM DATA (Based on Handbook)
-// ==========================================
+
 const curriculum = {
     term1: {
         name: "1 වාරය: ජීවන දැක්ම",
@@ -119,9 +117,6 @@ const curriculum = {
     }
 };
 
-// ==========================================
-// 2. STATE & HELPERS
-// ==========================================
 const KEY = 'nie_grade6_data_v2';
 const DB_NAME = 'nie_grade6_db', DB_STORE = 'appdata', DB_VER = 1;
 const $ = id => document.getElementById(id);
@@ -144,9 +139,6 @@ let currentAct = null;
 let dashTerm = 'term1';
 let isDashEditMode = false;
 
-// ==========================================
-// 3. IndexedDB (internal storage)
-// ==========================================
 let dbPromise = null;
 function openDB() {
     if (!dbPromise) dbPromise = new Promise((res, rej) => {
@@ -186,9 +178,6 @@ async function dbClear() {
     });
 }
 
-// ==========================================
-// 4. INIT / SAVE
-// ==========================================
 async function init() {
     try {
         let s = null;
@@ -305,9 +294,6 @@ function switchTab(tabId) {
     window.scrollTo({ top: 0, behavior: 'instant' });
 }
 
-// ==========================================
-// 5. STUDENTS
-// ==========================================
 const newId = () => 'stu_' + Date.now() + Math.random().toString(36).substr(2, 5);
 
 function addStudent() {
@@ -369,10 +355,6 @@ function renderStudentList() {
         ).join('');
     }).join('');
 }
-
-// ==========================================
-// 6. MARKS ENTRY (වාරය → ක්‍රියාකාරකම → සිසුවා/කණ්ඩායම)
-// ==========================================
 const actList = () => curriculum[currentTerm].activities;
 const curAct = () => actList().find(a => a.id === currentAct) || actList()[0];
 const grpOf = id => appData.groups.find(g => g.id === id);
@@ -477,7 +459,6 @@ function filterStudentDropdown() {
     let filtered = allDropdownOptions;
 
     if (query) {
-        // Filter by text
         filtered = allDropdownOptions.filter(o => o.text.toLowerCase().includes(query));
     }
 
@@ -509,10 +490,8 @@ function selectDropdownItem(value, text) {
     sel.value = value;
     input.value = text;
     toggleDropdown(false);
-    loadMarkingUI(); // UI එක සෘජුවම යාවත්කාලීන කිරීම
+    loadMarkingUI(); 
 }
-
-// Hide dropdown when clicking outside
 document.addEventListener('click', function(e) {
     const container = document.querySelector('.search-select-container');
     if (container && !container.contains(e.target)) {
@@ -606,10 +585,6 @@ function updateLive() {
     el.style.setProperty('--p', t); el.innerHTML = `<b>${t}</b>`;
     $('live-level').innerHTML = `<span class="lv">${lv[1]}</span>`;
 }
-
-// ==========================================
-// 7. GROUPS
-// ==========================================
 const saveGroups = () => {
     saveData();
     renderGroups();
@@ -700,9 +675,6 @@ function renderGroups() {
         ${free.length ? `<select onchange="addMember('${g.id}', this.value)"><option value="">+ සිසුවෙකු එක් කරන්න</option>${free.map(s => `<option value="${s.id}">${esc(s.name)}</option>`).join('')}</select>` : ''}</div>`).join('');
 }
 
-// ==========================================
-// 8. DASHBOARD
-// ==========================================
 function termTotal(sid, t) {
     const m = appData.marks[sid] || {};
     let actRaw = 0, actMaxSum = 0, sumRaw = 0, sumMax = 0;
@@ -790,7 +762,6 @@ function renderDashboard() {
         return;
     }
 
-    // Build dynamic headers based on term
     let thHtml = `<tr><th style="min-width:90px;text-align:left">නම</th>`;
     const currentActivities = curriculum[dashTerm].activities;
     currentActivities.forEach((a, i) => {
@@ -854,10 +825,6 @@ function renderDashboard() {
         }).join('');
     }
 }
-
-// ==========================================
-// 9. EXPORT / BACKUP
-// ==========================================
 function download(name, text, type) {
     const a = document.createElement('a');
     a.href = URL.createObjectURL(new Blob([text], { type }));
